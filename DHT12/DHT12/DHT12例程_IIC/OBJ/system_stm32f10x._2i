@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE
+-IF:\keil\ARM\RV31\INC
+-IF:\keil\ARM\CMSIS\Include
+-IF:\keil\ARM\Inc\ST\STM32F10x
+-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d --feedback "..\OBJ\DHT12.fed" "system_stm32f10x.c"

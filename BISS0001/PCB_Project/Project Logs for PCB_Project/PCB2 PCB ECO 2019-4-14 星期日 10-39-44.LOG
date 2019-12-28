@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=3.3V Pin=C1-1
+Removed Pin From Net: NetName=3.3V Pin=C2-1
+Removed Pin From Net: NetName=3.3V Pin=C3-1
+Removed Pin From Net: NetName=3.3V Pin=C4-1
+Removed Pin From Net: NetName=3.3V Pin=P1-1
+Removed Pin From Net: NetName=3.3V Pin=P1-3
+Removed Pin From Net: NetName=3.3V Pin=P2-1
+Removed Pin From Net: NetName=3.3V Pin=P3-1
+Removed Pin From Net: NetName=3.3V Pin=P4-1
+Removed Pin From Net: NetName=3.3V Pin=R10-1
+Removed Pin From Net: NetName=3.3V Pin=U1-8
+Removed Pin From Net: NetName=3.3V Pin=U1-11
+Change Net Name : Old Net Name=3.3V New Net Name=GND
+Added Pin To Net: NetName=3.3V Pin=C1-1
+Added Pin To Net: NetName=3.3V Pin=C2-1
+Added Pin To Net: NetName=3.3V Pin=P1-1
+Added Pin To Net: NetName=3.3V Pin=P4-1
+Added Net: Name=3.3V
+Added Pin To Net: NetName=5V Pin=C3-1
+Added Pin To Net: NetName=5V Pin=C4-1
+Added Pin To Net: NetName=5V Pin=P1-3
+Added Pin To Net: NetName=5V Pin=P2-1
+Added Pin To Net: NetName=5V Pin=P3-1
+Added Pin To Net: NetName=5V Pin=R10-1
+Added Pin To Net: NetName=5V Pin=U1-8
+Added Pin To Net: NetName=5V Pin=U1-11
+Added Net: Name=5V
+Added Member To Class: ClassName=Sheet2 Member=Component C1 Cap
+Added Member To Class: ClassName=Sheet2 Member=Component C2 Cap
+Added Member To Class: ClassName=Sheet2 Member=Component C3 Cap
+Added Member To Class: ClassName=Sheet2 Member=Component C4 Cap
+Added Member To Class: ClassName=Sheet2 Member=Component P1 Header 3
+Added Room: Name=Sheet2

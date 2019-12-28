@@ -1,0 +1,96 @@
+;#<FEEDBACK># ARM Linker, 5060528: Last Updated: Sat Apr 20 16:01:12 2019
+;VERSION 0.2
+;FILE core_cm3.o
+__REV16 <= USED 0
+__REVSH <= USED 0
+__get_MSP <= USED 0
+__get_PSP <= USED 0
+__set_MSP <= USED 0
+__set_PSP <= USED 0
+;FILE delay.o
+;FILE dht12.o
+;FILE main.o
+;FILE misc.o
+NVIC_PriorityGroupConfig <= USED 0
+NVIC_SetVectorTable <= USED 0
+NVIC_SystemLPConfig <= USED 0
+;FILE myiic.o
+;FILE startup_stm32f10x_hd.o
+;FILE stm32f10x_gpio.o
+GPIO_AFIODeInit <= USED 0
+GPIO_DeInit <= USED 0
+GPIO_ETH_MediaInterfaceConfig <= USED 0
+GPIO_EXTILineConfig <= USED 0
+GPIO_EventOutputCmd <= USED 0
+GPIO_EventOutputConfig <= USED 0
+GPIO_PinLockConfig <= USED 0
+GPIO_PinRemapConfig <= USED 0
+GPIO_ReadInputData <= USED 0
+GPIO_ReadInputDataBit <= USED 0
+GPIO_ReadOutputData <= USED 0
+GPIO_ReadOutputDataBit <= USED 0
+GPIO_ResetBits <= USED 0
+GPIO_StructInit <= USED 0
+GPIO_Write <= USED 0
+GPIO_WriteBit <= USED 0
+;FILE stm32f10x_rcc.o
+RCC_ADCCLKConfig <= USED 0
+RCC_AHBPeriphClockCmd <= USED 0
+RCC_APB1PeriphClockCmd <= USED 0
+RCC_AdjustHSICalibrationValue <= USED 0
+RCC_BackupResetCmd <= USED 0
+RCC_ClearFlag <= USED 0
+RCC_ClearITPendingBit <= USED 0
+RCC_ClockSecuritySystemCmd <= USED 0
+RCC_DeInit <= USED 0
+RCC_GetFlagStatus <= USED 0
+RCC_GetITStatus <= USED 0
+RCC_GetSYSCLKSource <= USED 0
+RCC_HCLKConfig <= USED 0
+RCC_HSEConfig <= USED 0
+RCC_HSICmd <= USED 0
+RCC_ITConfig <= USED 0
+RCC_LSEConfig <= USED 0
+RCC_LSICmd <= USED 0
+RCC_MCOConfig <= USED 0
+RCC_PCLK1Config <= USED 0
+RCC_PCLK2Config <= USED 0
+RCC_PLLCmd <= USED 0
+RCC_PLLConfig <= USED 0
+RCC_RTCCLKCmd <= USED 0
+RCC_RTCCLKConfig <= USED 0
+RCC_SYSCLKConfig <= USED 0
+RCC_USBCLKConfig <= USED 0
+RCC_WaitForHSEStartUp <= USED 0
+;FILE stm32f10x_usart.o
+USART_ClearFlag <= USED 0
+USART_ClearITPendingBit <= USED 0
+USART_ClockInit <= USED 0
+USART_ClockStructInit <= USED 0
+USART_DMACmd <= USED 0
+USART_GetFlagStatus <= USED 0
+USART_GetITStatus <= USED 0
+USART_HalfDuplexCmd <= USED 0
+USART_ITConfig <= USED 0
+USART_IrDACmd <= USED 0
+USART_IrDAConfig <= USED 0
+USART_LINBreakDetectLengthConfig <= USED 0
+USART_LINCmd <= USED 0
+USART_OneBitMethodCmd <= USED 0
+USART_OverSampling8Cmd <= USED 0
+USART_ReceiveData <= USED 0
+USART_ReceiverWakeUpCmd <= USED 0
+USART_SendBreak <= USED 0
+USART_SendData <= USED 0
+USART_SetAddress <= USED 0
+USART_SetGuardTime <= USED 0
+USART_SetPrescaler <= USED 0
+USART_SmartCardCmd <= USED 0
+USART_SmartCardNACKCmd <= USED 0
+USART_StructInit <= USED 0
+USART_WakeUpConfig <= USED 0
+;FILE sys.o
+NVIC_Configuration <= USED 0
+;FILE system_stm32f10x.o
+SystemCoreClockUpdate <= USED 0
+;FILE usart.o
